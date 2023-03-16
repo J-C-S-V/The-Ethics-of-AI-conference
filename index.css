@@ -28,7 +28,7 @@ body {
 
 .header__img {
   width: 45%;
-  margin: auto 25%;
+  margin: auto 29%;
 }
 
 .hero {
@@ -40,20 +40,33 @@ body {
 }
 
 .main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url('./img/pattern.png');
   background-repeat: repeat;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.main__h2 {
+  font-size: 1.2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  gap: 5px;
 }
 
 .cards {
   display: flex;
   align-items: center;
-  color: #fff;
-  font-size: 1rem;
-  margin: auto 4%;
-  background-color: rgba(59, 62, 69, 0.3);
-  /* border: 2px solid yellow; */
+  margin: auto 3%;
+  background-color: rgba(133, 133, 133, 0.3);
 }
 
 .main__h3 {
@@ -67,6 +80,37 @@ body {
 
 .cards__childs {
   padding: 0 0.5rem;
+}
+
+.main__button {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #ff5438;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 1rem 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4% auto;
+}
+
+.speakers {
+  display: flex;
+  gap: 15px;
+  padding: 4%;
+}
+
+.speakers__h3 {
+  font-size: 1rem;
+}
+
+.speakers__p-1 {
+  color: #f78c89;
 }
 
 @media screen and (max-width: 768px) {
