@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Roboto+Mono:wght@200;400&display=swap');
 
 *,
 *::before *::after {
@@ -32,7 +32,41 @@ body {
 }
 
 .hero {
-  background-image: url('../images/hero.jpg');
+  background-image: url('./img/hero_container.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 29rem;
+  width: 100%;
+}
+
+.main {
+  background-image: url('./img/pattern.png');
+  background-repeat: repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  margin: auto 4%;
+  background-color: rgba(59, 62, 69, 0.3);
+  /* border: 2px solid yellow; */
+}
+
+.main__h3 {
+  color: #ff5438;
+}
+
+.cards__svg {
+  width: 20%;
+  margin: 0 5%;
+}
+
+.cards__childs {
+  padding: 0 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
