@@ -45,9 +45,11 @@ body {
   align-items: center;
   background-repeat: repeat;
   height: 90vh;
-  width: 100%;
+  width: 90%;
+  margin: auto 5%;
   font-size: 1rem;
   color: #2c2c2c;
+  text-align: center;
 }
 
 .main__section {
@@ -82,11 +84,27 @@ body {
   /* background-color: yellow; */
 }
 
-.footer {
+.main__articles-p {
+  color: #838383;
+}
+
+.main__article {
+  color: white;
+  background-image: url('./img/artificial_inteligence.jpg');
+  background-color: rgba(245, 61, 0, 0.693);
+  background-size: 100%;
+  margin: 5% 0%;
+  padding: 3%;
+  /* width: 90%; */
+  /* opacity: 0.7; */
+}
+
+.about_footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 4% auto;
+  margin-top: 5%;
+  /* padding: 4% auto; */
 }
 
 @media screen and (max-width: 768px) {
