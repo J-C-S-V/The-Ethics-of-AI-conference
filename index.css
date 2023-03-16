@@ -148,7 +148,7 @@ body {
   font-size: 1.5rem;
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background-color: #ff5438;
 }
 
 .DOM-menu__ul {
@@ -162,7 +162,7 @@ body {
 
 .DOM-menu__ul li a {
   text-decoration: none;
-  color: #868686;
+  color: #ffffff;
 }
 
 .DOM-menu__svg {

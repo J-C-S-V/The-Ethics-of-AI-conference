@@ -1,5 +1,5 @@
 const hamburguerMenuIndex = document.querySelector('.header__svg');
-const menu = document.querySelector('.header__menu');
+const menu = document.querySelector('body');
 
 hamburguerMenuIndex.addEventListener('click', () => {
   menu.innerHTML = `
@@ -29,5 +29,69 @@ hamburguerMenuIndex.addEventListener('click', () => {
 </section>
 `;
 
-  menu.classList.toggle('header__menu--active');
+  // menu.classList.toggle('header__menu--active');
+  const closeMenu = document.querySelector('.DOM-menu__svg');
+
+  closeMenu.addEventListener('click', () => {
+    console.log('click');
+    window.location.reload();
+  });
+});
+
+// document.querySelector('.footer').appendChild(speakersSection);
+
+const speakersSection = document.querySelector('.footer');
+
+window.addEventListener('load', () => {
+  speakersSection.innerHTML = ` 
+  <h2>Featured Speakers</h2>
+  <svg
+    class="footer__svg"
+    xmlns="http://www.w3.org/2000/svg"
+    width="31"
+    height="3"
+    viewBox="0 0 31 3"
+    fill="none"
+  >
+    <line
+      x1="0.5"
+      y1="1.5"
+      x2="30.5"
+      y2="1.5"
+      stroke="#A04038"
+      stroke-width="2"
+    />
+  </svg>
+  <article class="speakers">
+    <img src="./img/speaker_1.png" alt="speaker one" />
+    <aside>
+      <h3 class="speakers__h3">Yochai Benkler</h3>
+      <p class="speakers__p-1">
+        Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
+        School
+      </p>
+      <p class="speakers__p-2">
+        Benkler studies commons-based peer production, and published his
+        seminal book, The Wealth of Networks in 2006
+      </p>
+    </aside>
+  </article>
+  <article class="speakers">
+    <img src="./img/speaker_2.png" alt="speaker one" />
+    <aside>
+      <h3 class="speakers__h3">Yochai Benkler</h3>
+      <p class="speakers__p-1">
+        Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
+        School
+      </p>
+      <p class="speakers__p-2">
+        Benkler studies commons-based peer production, and published his
+        seminal book, The Wealth of Networks in 2006
+      </p>
+    </aside>
+  </article>
+  <button class="speakers__button">
+    <img src="./img/more-btn.png" alt="More options" />
+  </button>
+  `;
 });
