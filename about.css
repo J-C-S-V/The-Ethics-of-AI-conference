@@ -120,21 +120,60 @@ body {
   flex: 1;
 }
 
-@media screen and (max-width: 768px) {
-  .header-d {
-    display: flex;
-    background-color: #3e3e3e;
+.header-d {
+  display: none;
+}
+
+.desktop-p {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
   }
 
-  .header__ul,
-  .header__ul-2 {
+  .header-d {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: #3e3e3e;
+    font-size: 1rem;
+  }
+
+  .header-d__ul {
     display: flex;
     list-style: none;
-    padding: 0;
     margin: 0;
   }
 
-  .header-d {
+  .header-d__ul li {
+    padding: 1rem;
+  }
+
+  .hero__about {
+    background-image: url('./img/about_desktop_hero.png');
+    background-repeat: no-repeat;
+    height: 24rem;
+    width: 100%;
+  }
+
+  .main__section-img {
+    width: 50%;
+  }
+
+  .article-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .main__partners {
     display: none;
+  }
+
+  .about_footer {
+    background-color: #3e3e3e;
+    color: white;
   }
 }

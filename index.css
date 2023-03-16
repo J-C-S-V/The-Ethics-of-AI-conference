@@ -140,6 +140,7 @@ body {
     justify-content: flex-end;
     color: white;
     background-color: #3e3e3e;
+    font-size: 1rem;
   }
 
   .header-d__ul {
