@@ -45,7 +45,7 @@ body {
   align-items: center;
   background-image: url('./img/pattern.png');
   background-repeat: repeat;
-  height: 90vh;
+  height: 100%;
   width: 100%;
   font-size: 1rem;
   color: #fff;
@@ -130,6 +130,10 @@ body {
   display: none;
 }
 
+.navbar {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
@@ -159,6 +163,10 @@ body {
     background-repeat: no-repeat;
     height: 40rem;
     width: 100%;
+  }
+
+  .main {
+    height: 110%;
   }
 
   .main__button {
@@ -220,5 +228,37 @@ body {
 
   .about_footer p {
     flex: 1;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .navbar__ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #868686;
+    padding: 0.8rem;
+  }
+
+  .navbar__ul li a:hover {
+    color: #f53d00;
+  }
+  .navbar-logo {
+    width: 10%;
+  }
+
+  .li-special {
+    border: 6px solid #f53d00;
+    padding: 0.5rem;
+    color: #f53d00;
   }
 }
