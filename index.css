@@ -171,3 +171,156 @@ body {
 .footer {
   display: none;
 }
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .header-d {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    background-color: #3e3e3e;
+    font-size: 1rem;
+  }
+
+  .header-d__ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+  }
+
+  .header-d__ul li {
+    padding: 1rem;
+  }
+
+  .hero {
+    background-image: url('./img/desktop_hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+  }
+
+  .main {
+    height: 110%;
+  }
+
+  .main__button {
+    display: none;
+  }
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    height: 231px;
+    margin: 0%;
+  }
+
+  .desktop-p {
+    display: block;
+    border-bottom: 2px solid #fff;
+    margin-top: 6rem;
+  }
+
+  .desktop-main__partners {
+    display: block;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #3e3e3e;
+    width: 100%;
+    padding: 4% 0 8%;
+    text-align: center;
+  }
+
+  .desktop-main__section-svg {
+    position: relative;
+    bottom: 1rem;
+  }
+
+  .main__partners-logos img {
+    width: 159px;
+    height: 49px;
+  }
+
+  .about_footer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 8%;
+  }
+
+  .about_footer img {
+    flex: 1;
+  }
+
+  .about_footer p {
+    flex: 1;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .navbar__ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+  .navbar__ul li a {
+    text-decoration: none;
+    color: #868686;
+    padding: 0.8rem;
+  }
+
+  .navbar__ul li a:hover {
+    color: #f53d00;
+  }
+
+  .navbar-logo {
+    width: 10%;
+  }
+
+  .li-special {
+    border: 6px solid #f53d00;
+    padding: 0.5rem;
+    color: #f53d00;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+  }
+
+  .speakers-flex-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3%;
+    text-align: left;
+  }
+
+  .speakers img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .footer2 {
+    display: none;
+  }
+}
