@@ -11,3 +11,21 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2% 0;
+}
+
+.header__svg {
+  position: relative;
+  left: 25px;
+  width: 11%;
+}
+
+.header__img {
+  width: 45%;
+  margin: auto 29%;
+}
