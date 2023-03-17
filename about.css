@@ -132,6 +132,35 @@ body {
   display: none;
 }
 
+/*Menu*/
+.DOM-menu {
+  position: fixed;
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
+  background-color: #ff5438;
+}
+
+.DOM-menu__ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 2rem;
+  list-style: none;
+}
+
+.DOM-menu__ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.DOM-menu__svg {
+  width: 100%;
+  height: 8%;
+  color: #797979;
+}
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
