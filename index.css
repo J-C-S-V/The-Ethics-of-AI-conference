@@ -9,14 +9,13 @@ body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 1px 5px 4px 0px rgba(0, 0, 0, 0.2);
   padding: 2% 0;
 }
 
@@ -79,7 +78,7 @@ body {
 }
 
 .cards__childs {
-  padding: 0 0.5rem;
+  padding: 1px 0.5rem;
 }
 
 .main__button {
@@ -90,13 +89,6 @@ body {
   border: none;
   padding: 1.5rem 3rem;
   margin: 1rem 0;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 4% auto;
 }
 
 .speakers {
@@ -143,6 +135,7 @@ body {
 }
 
 /*Menu*/
+
 .DOM-menu {
   position: fixed;
   font-size: 1.5rem;
@@ -162,7 +155,7 @@ body {
 
 .DOM-menu__ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .DOM-menu__svg {
@@ -242,6 +235,7 @@ body {
   }
 
   .desktop-main__partners {
+    display: block;
     font-size: 0.7rem;
     color: white;
     background-color: #3e3e3e;
@@ -275,10 +269,6 @@ body {
     flex: 1;
   }
 
-  .desktop-main__partners {
-    display: block;
-  }
-
   .navbar {
     display: flex;
     justify-content: space-around;
@@ -292,6 +282,7 @@ body {
     align-items: center;
     list-style: none;
   }
+
   .navbar__ul li a {
     text-decoration: none;
     color: #868686;
@@ -301,6 +292,7 @@ body {
   .navbar__ul li a:hover {
     color: #f53d00;
   }
+
   .navbar-logo {
     width: 10%;
   }
