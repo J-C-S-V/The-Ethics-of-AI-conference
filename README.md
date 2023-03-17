@@ -1,13 +1,12 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/DOM-manipulation-modal/img/captone_project.png?raw=true" alt="logo" width="540"  height="auto" />
 
-  <h3><b>[/*TITLE]</b></h3>
+  <br/>
 
 </div>
 
-# [/*TITLE]
+# [Capstone project Module 1]
 
 # 📗 Table of Contents
 
@@ -32,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [/*TITLE] <a name="about-project"></a>
+# 📖 [Capstone project Module 1] <a name="about-project"></a>
 
-**[/*TITLE]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
+**[Capstone project Module 1]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +48,7 @@
     <li><a href="#">CSS3</a></li>
   </ul>
     <ul>
-    <li><a href="#">VScode</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
     <ul>
     <li><a href="#">Git and GitHub</a></li>
@@ -159,6 +158,8 @@ If you get inspired by this project you can give me a star 🙌
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to thank **Cindy Shin** the author of the original design
 
 I would like to thank Microverse
 
