@@ -1,10 +1,9 @@
 const hamburguerMenuIndex = document.querySelector('.header__svg');
-const menu = document.querySelector('body');
+const menu = document.querySelector('.DOM-menu--inactive');
 
 hamburguerMenuIndex.addEventListener('click', () => {
+  menu.classList.toggle('DOM-menu');
   menu.innerHTML = `
-
-  <section class="DOM-menu">
   <svg
     class="DOM-menu__svg"
     xmlns="http://www.w3.org/2000/svg"
@@ -26,15 +25,12 @@ hamburguerMenuIndex.addEventListener('click', () => {
     <li><a href="#">News</a></li>
     <li class="li-special"><a href="#">CC Campaign</a></li>
   </ul>
-</section>
+
 `;
-
-  // menu.classList.toggle('header__menu--active');
   const closeMenu = document.querySelector('.DOM-menu__svg');
-
   closeMenu.addEventListener('click', () => {
-    console.log('click');
-    window.location.reload();
+    menu.innerHTML = '';
+    menu.classList.toggle('DOM-menu');
   });
 });
 
