@@ -1,15 +1,12 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
+  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/DOM-manipulation-modal/img/captone_project.png?raw=true" alt="logo" width="540"  height="auto" />
 
-  <h3><b>[/*TITLE]</b></h3>
+  <br/>
 
 </div>
 
-# [/*TITLE]
-
-<!-- TABLE OF CONTENTS -->
+# [Capstone project Module 1]
 
 # 📗 Table of Contents
 
@@ -18,6 +15,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🤓 Walkthrough](#walk-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -34,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [/*TITLE] <a name="about-project"></a>
+# 📖 [Capstone project Module 1] <a name="about-project"></a>
 
-**[/*TITLE]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
+**[Capstone project Module 1]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,7 +49,7 @@
     <li><a href="#">CSS3</a></li>
   </ul>
     <ul>
-    <li><a href="#">VScode</a></li>
+    <li><a href="#">JavaScript</a></li>
   </ul>
     <ul>
     <li><a href="#">Git and GitHub</a></li>
@@ -72,10 +70,15 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🤓 Walkthrough <a name="walk-demo"></a>
+
+- [Walkthrough](https://www.loom.com/share/4c0d83485fb447d29261b3cd91be1e8c)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -162,6 +165,8 @@ If you get inspired by this project you can give me a star 🙌
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to thank **Cindy Shin** the author of the original design
 
 I would like to thank Microverse
 
