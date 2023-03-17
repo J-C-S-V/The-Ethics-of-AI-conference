@@ -1,6 +1,6 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/DOM-manipulation-modal/img/captone_project.png?raw=true" alt="logo" width="540"  height="auto" />
+  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/Capstone-project-feature-branch/img/captone_project.png?raw=true" alt="logo" width="540"  height="auto" />
 
   <br/>
 
