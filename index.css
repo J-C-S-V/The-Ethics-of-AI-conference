@@ -29,3 +29,64 @@ body {
   width: 45%;
   margin: auto 29%;
 }
+
+.hero {
+  background-image: url('./img/hero_container.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 33rem;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./img/pattern.png');
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.main__h2 {
+  font-size: 1.2rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 0;
+  gap: 5px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  margin: auto 3%;
+  background-color: rgba(133, 133, 133, 0.3);
+}
+
+.main__h3 {
+  color: #ff5438;
+}
+
+.cards__svg {
+  width: 20%;
+  margin: 0 5%;
+}
+
+.cards__childs {
+  padding: 1px 0.5rem;
+}
+
+.main__button {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #ff5438;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 1rem 0;
+}
