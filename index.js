@@ -36,7 +36,7 @@ hamburguerMenuIndex.addEventListener('click', () => {
 
 // document.querySelector('.footer').appendChild(speakersSection);
 
-const speakersSection = document.querySelector('.footer');
+// const speakersSection = document.querySelector('.footer');
 
 window.addEventListener('load', () => {
   speakersSection.innerHTML = ` 
