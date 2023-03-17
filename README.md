@@ -9,8 +9,6 @@
 
 # [/*TITLE]
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -75,7 +73,6 @@
 - [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
