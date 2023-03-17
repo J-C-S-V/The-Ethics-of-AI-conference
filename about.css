@@ -100,3 +100,33 @@ body {
   width: 110%;
   padding: 4% 0 8%;
 }
+
+.about_footer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8%;
+}
+
+.about_footer-img {
+  padding: 4%;
+  width: 45%;
+  flex: 1;
+}
+
+.about_footer p {
+  padding: 4%;
+  flex: 1;
+}
+
+.header-d {
+  display: none;
+}
+
+.desktop-p {
+  display: none;
+}
+
+.navbar {
+  display: none;
+}
