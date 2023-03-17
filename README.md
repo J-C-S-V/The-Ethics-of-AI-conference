@@ -70,7 +70,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://j-c-s-v.github.io/Portfolio-setup-and-mobile-first/)
+- [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
