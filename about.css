@@ -9,14 +9,13 @@ body {
   font-size: 62.5%;
   padding: 0;
   margin: 0;
-  font-family: 'Lato';
+  font-family: 'Lato', sans-serif;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  box-shadow: 1px 5px 4px 0px rgba(0, 0, 0, 0.2);
   padding: 2% 0;
 }
 
@@ -133,6 +132,7 @@ body {
 }
 
 /*Menu*/
+
 .DOM-menu {
   position: fixed;
   font-size: 1.5rem;
@@ -152,7 +152,7 @@ body {
 
 .DOM-menu__ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
 }
 
 .DOM-menu__svg {
@@ -223,6 +223,7 @@ body {
     align-items: center;
     list-style: none;
   }
+
   .navbar__ul li a {
     text-decoration: none;
     color: #868686;
@@ -232,6 +233,7 @@ body {
   .navbar__ul li a:hover {
     color: #f53d00;
   }
+
   .navbar-logo {
     width: 10%;
   }
