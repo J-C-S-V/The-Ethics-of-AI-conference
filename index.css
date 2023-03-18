@@ -28,7 +28,7 @@ body {
 }
 
 .header__img {
-  width: 45%;
+  width: 38%;
   margin: auto 29%;
 }
 
@@ -241,7 +241,7 @@ body {
 
   .main {
     height: 110%;
-    padding: 5%;
+    padding: 5% 0 5% 0;
   }
 
   .main__button {
@@ -363,5 +363,9 @@ body {
 
   .footer2 {
     display: none;
+  }
+
+  .about_footer-img {
+    width: 50%;
   }
 }
