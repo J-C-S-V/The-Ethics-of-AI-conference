@@ -18,7 +18,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2% 0;
-  box-shadow: 0px 7px 11px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 7px 11px 1px rgba(0, 0, 0, 0.5);
 }
 
 .header__svg {
@@ -41,7 +41,7 @@ body {
 }
 
 .hero-about__p {
-  padding: 10px 0px;
+  padding: 10px 1px;
   line-height: 1.8;
   font-size: 0.8rem;
   background-color: white;
@@ -221,9 +221,6 @@ body {
 
   .header-d__ul li {
     padding: 1rem;
-  }
-
-  .hero__about {
   }
 
   .main__section-img {
