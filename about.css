@@ -203,10 +203,12 @@ body {
   height: 100%;
   background-color: #ff6a599c;
 }
+
 .overlay > * {
   padding: 20px;
   margin: 0;
 }
+
 @media screen and (min-width: 768px) {
   .header {
     display: none;
