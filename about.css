@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-color: #f8f8f8;
 }
 
 .header {
@@ -17,6 +18,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2% 0;
+  box-shadow: 0px 7px 11px 1px rgba(0, 0, 0, 0.5);
 }
 
 .header__svg {
@@ -30,12 +32,38 @@ body {
   margin: auto 29%;
 }
 
-.hero__about {
-  background-image: url('./img/about_main_img.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 29rem;
-  width: 100%;
+.hero-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 5%;
+  text-align: center;
+}
+
+.hero-about__p {
+  padding: 10px 0px;
+  line-height: 1.8;
+  font-size: 0.8rem;
+  background-color: white;
+}
+
+.hero-about__h1 {
+  margin-top: 0;
+  color: #e91a03;
+  font-size: 2.5rem;
+}
+
+.hero__h2 {
+  margin-top: 2%;
+  color: #e91a03;
+}
+
+.hero-about__h3 {
+  color: #7a7a7a;
+}
+
+.hero-about__span {
+  color: #5f5f5f;
 }
 
 .main {
@@ -87,6 +115,15 @@ body {
 .main__article {
   color: white;
   background-image: url('./img/artificial_inteligence.jpg');
+  background-color: rgba(245, 61, 0, 0.693);
+  background-size: 100%;
+  margin: 5% 0%;
+  padding: 3%;
+}
+
+.main__article2 {
+  color: white;
+  background-image: url('./img/artificial_inteligence_2.jpg');
   background-color: rgba(245, 61, 0, 0.693);
   background-size: 100%;
   margin: 5% 0%;
@@ -185,10 +222,6 @@ body {
   }
 
   .hero__about {
-    background-image: url('./img/about_desktop_hero.png');
-    background-repeat: no-repeat;
-    height: 24rem;
-    width: 100%;
   }
 
   .main__section-img {
