@@ -119,7 +119,6 @@ body {
   margin: 5% 0%;
   width: 100%;
   height: 10rem;
-  padding: 10px;
 }
 
 .main__article2 {
@@ -129,7 +128,6 @@ body {
   margin: 5% 0%;
   width: 100%;
   height: 10rem;
-  padding: 10px;
 }
 
 .main__partners {
@@ -200,6 +198,15 @@ body {
   color: #fff;
 }
 
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #ff6a599c;
+}
+.overlay > * {
+  padding: 20px;
+  margin: 0;
+}
 @media screen and (min-width: 768px) {
   .header {
     display: none;
