@@ -34,6 +34,51 @@ hamburguerMenuIndex.addEventListener('click', () => {
   });
 });
 
+const speakerList = [
+  {
+    name: 'Yochai Benkler',
+    role: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description:
+      'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+    photo: './img/speaker_1.png',
+  },
+  {
+    name: 'SohYeong Noh',
+    role: 'Director of Art Centre Nabi and a board member of CC Korea',
+    description:
+      'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+    photo: './img/speaker_2.png',
+  },
+  {
+    name: 'Kilnam Chon',
+    role: '',
+    description:
+      "Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society's (ISOC) Internet Hall of Fame",
+    photo: './img/speaker_3.png',
+  },
+  {
+    name: 'Julia Leda',
+    role: 'President of Young Pirates of Europe',
+    description:
+      'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+    photo: './img/speaker_4.png',
+  },
+  {
+    name: 'Lila tretikov',
+    role: 'Executive Director of the Wikimedia Foundation',
+    description:
+      'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
+    photo: './img/speaker_5.png',
+  },
+  {
+    name: 'Ryan Merkley',
+    role: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+    description:
+      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+    photo: './img/speaker_6.png',
+  },
+];
+
 const speakersSection2 = document.querySelector('.footer2');
 
 window.addEventListener('load', () => {
@@ -57,41 +102,37 @@ window.addEventListener('load', () => {
     />
   </svg>
   <article class="speakers">
-    <img src="./img/speaker_1.png" alt="speaker one" />
+    <img src="${speakerList[0].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Yochai Benkler</h3>
+      <h3 class="speakers__h3">${speakerList[0].name}</h3>
       <p class="speakers__p-1">
-        Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
-        School
+      ${speakerList[0].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
 <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
 </svg>
       <p class="speakers__p-2">
-        Benkler studies commons-based peer production, and published his
-        seminal book, The Wealth of Networks in 2006
+      ${speakerList[0].description}
       </p>
     </aside>
   </article>
   <article class="speakers">
-    <img src="./img/speaker_2.png" alt="speaker one" />
+    <img src="${speakerList[1].photo}" />
     <aside>
-      <h3 class="speakers__h3">Yochai Benkler</h3>
+      <h3 class="speakers__h3">${speakerList[1].name}</h3>
       <p class="speakers__p-1">
-        Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
-        School
+      ${speakerList[1].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        Benkler studies commons-based peer production, and published his
-        seminal book, The Wealth of Networks in 2006
+      ${speakerList[1].description}
       </p>
     </aside>
   </article>
   <button class="speakers__button">
-    <img src="./img/more-btn.png" alt="More options" />
+  <img src="./img/more-btn.png" alt="More options" />
   </button>
   `;
 });
@@ -121,101 +162,89 @@ window.addEventListener('load', () => {
 </svg>
 <div class="speakers-flex-container">
   <article class="speakers">
-    <img src="./img/speaker_1.png" alt="speaker one" />
+    <img src="${speakerList[0].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Yochai Benkler</h3>
+      <h3 class="speakers__h3">${speakerList[0].name}</h3>
       <p class="speakers__p-1">
-        Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
-        School
+      ${speakerList[0].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        Benkler studies commons-based peer production, and published his
-        seminal book, The Wealth of Networks in 2006
+      ${speakerList[0].description}
       </p>
     </aside>
   </article>
   <article class="speakers">
-    <img src="./img/speaker_3.png" alt="speaker one" />
+    <img src="${speakerList[2].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Kilnam Chon</h3>
+      <h3 class="speakers__h3">${speakerList[2].name}</h3>
       <p class="speakers__p-1"></p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        Kilnam Chon helped bring the internet to Asia and is an outspoken
-        advocate for the open web and digital com-mons. In 2012. he was
-        inducted into the inaugural class of the Internet Society's (ISOC)
-        Internet Hall of Fame
+      ${speakerList[2].description}
       </p>
     </aside>
   </article>
   <article class="speakers">
-    <img src="./img/speaker_2.png" alt="speaker one" />
+    <img src="${speakerList[1].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">SohYeong Noh</h3>
+      <h3 class="speakers__h3">${speakerList[1].name}</h3>
       <p class="speakers__p-1">
-        Director of Art Centre Nabi and a board member of CC Korea
+      ${speakerList[1].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        As the main venue for new media art production in Korea, Nabi
-        promotes cross-disciplinary collaboration and understanding among
-        science technology, humanities, and the arts.
+      ${speakerList[1].description}
       </p>
     </aside>
   </article>
 
   <article class="speakers">
-    <img src="./img/speaker_4.png" alt="speaker one" />
+    <img src="${speakerList[3].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Julia Leda</h3>
-      <p class="speakers__p-1">President of Young Pirates of Europe</p>
+      <h3 class="speakers__h3">${speakerList[3].name}</h3>
+      <p class="speakers__p-1">${speakerList[3].role}</p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        European ingetration, political democracy and participation of
-        youth through online as her major condern, Reda's report outlining
-        potential changes to EU copyright law was approved by the
-        Parliament in July
+      ${speakerList[3].description}
       </p>
     </aside>
   </article>
   <article class="speakers">
-    <img src="./img/speaker_5.png" alt="speaker one" />
+    <img src="${speakerList[4].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Lila tretikov</h3>
+      <h3 class="speakers__h3">${speakerList[4].name}</h3>
       <p class="speakers__p-1">
-        Executive Director of the Wikimedia Foundation
+      ${speakerList[4].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        Lila Tretikov is the Executive of the Wikimedia Foundation, the
-        nonprofit organization that operates Wikipedia.
+      ${speakerList[4].description}
       </p>
     </aside>
   </article>
   <article class="speakers">
-    <img src="./img/speaker_6.png" alt="speaker one" />
+    <img src="${speakerList[5].photo}" alt="speaker one" />
     <aside>
-      <h3 class="speakers__h3">Ryan Merkley</h3>
+      <h3 class="speakers__h3">${speakerList[5].name}</h3>
       <p class="speakers__p-1">
-        CEO of Creativve Commons, ex COO of the Mozilla Foundation
+      ${speakerList[5].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
       <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
       </svg>
       <p class="speakers__p-2">
-        Ryan had been leading open-source projects at the Mozilla
-        Foundation such as the open-source move-ment
+      ${speakerList[5].description}
       </p>
     </aside>
   </article>
