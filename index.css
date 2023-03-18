@@ -10,6 +10,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
+  background-color: #f8f8f8;
 }
 
 .header {
@@ -17,6 +18,7 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 2% 0;
+  box-shadow: 0px 7px 11px 1px rgba(0, 0, 0, 0.5);
 }
 
 .header__svg {
@@ -31,11 +33,43 @@ body {
 }
 
 .hero {
-  background-image: url('./img/hero_container.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 33rem;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10% 5%;
+}
+
+.hero__h2 {
+  color: #ec5242;
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-bottom: 0;
+}
+
+.hero__h1 {
+  color: #e91a03;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero__p {
+  color: #515151;
+  border: 6px solid #fff;
+}
+
+.hero__h2-2 {
+  color: #595959;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
+}
+
+.hero__span {
+  color: #868686;
+  font-size: 1rem;
+}
+
+.hero__date {
+  padding: 4% 0px;
 }
 
 .main {
@@ -173,6 +207,15 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .hero__p {
+    margin-right: 25%;
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    margin: 5% 10%;
+  }
+
   .header {
     display: none;
   }
@@ -193,14 +236,6 @@ body {
 
   .header-d__ul li {
     padding: 1rem;
-  }
-
-  .hero {
-    background-image: url('./img/desktop_hero.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 40rem;
-    width: 100%;
   }
 
   .main {
@@ -274,6 +309,7 @@ body {
     justify-content: space-around;
     padding: 1rem 0;
     font-size: 1rem;
+    background-color: #fff;
   }
 
   .navbar__ul {
