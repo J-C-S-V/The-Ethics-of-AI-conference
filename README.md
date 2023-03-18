@@ -76,7 +76,7 @@
 
 ## 🤓 Walkthrough <a name="walk-demo"></a>
 
-- [Walkthrough](https://www.loom.com/share/4c0d83485fb447d29261b3cd91be1e8c)
+- [Walkthrough](https://www.loom.com/share/b22b9de827c942c3bc5e0d65733cd519)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
