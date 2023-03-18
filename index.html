@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>The ethics of AI</title>
+  </head>
+  <body>
+    <section class="DOM-menu--inactive"></section>
+    <!-- Desktop view start -->
+    <section class="header-d">
+      <ul class="header-d__ul">
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="18"
+            height="18"
+            viewBox="0 0 18 18"
+            fill="none"
+          >
+            <path
+              d="M5.65426 18C12.4466 18 16.1633 11.0728 16.1633 5.07579C16.1633 4.8809 16.1633 4.68602 16.1561 4.49114C16.8764 3.85335 17.503 3.04724 18 2.13484C17.3373 2.49803 16.6243 2.73721 15.8752 2.85236C16.6387 2.29429 17.2221 1.39961 17.503 0.336614C16.7899 0.859251 15.9976 1.2313 15.1549 1.43504C14.4778 0.549212 13.5198 0 12.461 0C10.4226 0 8.76591 2.0374 8.76591 4.54429C8.76591 4.89862 8.80192 5.24409 8.85954 5.58071C5.79112 5.39468 3.06843 3.57874 1.2461 0.832677C0.929172 1.50591 0.7491 2.28543 0.7491 3.11811C0.7491 4.69488 1.40456 6.08563 2.39136 6.90059C1.78631 6.87402 1.21729 6.67027 0.720288 6.33366C0.720288 6.35138 0.720288 6.36909 0.720288 6.39567C0.720288 8.59252 1.9952 10.435 3.68067 10.8514C3.37095 10.9577 3.04682 11.0108 2.70828 11.0108C2.47059 11.0108 2.2401 10.9843 2.01681 10.9311C2.48499 12.7382 3.85354 14.0492 5.46699 14.0846C4.19928 15.3071 2.60744 16.0335 0.878752 16.0335C0.583434 16.0335 0.288115 16.0157 0 15.9715C1.62785 17.247 3.57263 18 5.65426 18Z"
+              fill="white"
+            />
+          </svg>
+        </li>
+        <li>English</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+    </section>
+    <nav class="navbar">
+      <img class="navbar-logo" src="./img/logo.png" alt="logo" />
+      <ul class="navbar__ul">
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Program</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Sponsor</a></li>
+        <li><a href="#">News</a></li>
+        <li class="li-special"><a href="#">CC Campaign</a></li>
+      </ul>
+    </nav>
+    <!-- Desktop view end -->
+
+    <section class="header">
+      <svg
+        class="header__svg"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="31"
+        height="28"
+        viewBox="0 0 31 28"
+        fill="none"
+      >
+        <rect width="31" height="27.28" fill="url(#pattern0)" />
+        <defs>
+          <pattern
+            id="pattern0"
+            patternContentUnits="objectBoundingBox"
+            width="1"
+            height="1"
+          >
+            <use xlink:href="#image0_68_6" transform="scale(0.02 0.0227273)" />
+          </pattern>
+
+          <image
+            id="image0_68_6"
+            width="50"
+            height="44"
+            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAsCAYAAAAn4+taAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMEM2QUUyRjMzMDQxMUU1OUQyQ0NDMDJGMDc1OEMxOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMEM2QUUzMDMzMDQxMUU1OUQyQ0NDMDJGMDc1OEMxOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkEwQzZBRTJEMzMwNDExRTU5RDJDQ0MwMkYwNzU4QzE5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkEwQzZBRTJFMzMwNDExRTU5RDJDQ0MwMkYwNzU4QzE5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+2Wl8LQAAAIJJREFUeNrs2EEKgzAUBNC0CK56uqB3qAeqd2iP58qV/uQKXQTj+zD7PBgYyCPnfKQO7pk6ORAQEBCQJjdE5sgY2S9qqG8vkJ9qgYCAgLTYkU/kFdkuaqhvL5C3aoGAgICA/DGIay+DuKgWCAgISIsdmVInH3Rf1QIBAQEBuTvkFGAAL5wOYApfVmAAAAAASUVORK5CYII="
+          />
+        </defs>
+      </svg>
+      <a href="index.html">
+        <img
+          class="header__img"
+          src="./img/logo.png"
+          alt="CC Global Summit 2015"
+        />
+      </a>
+    </section>
+    <section class="hero">
+      <h2 class="hero__h2">Is AI good or bad?</h2>
+      <h1 class="hero__h1">
+        The ethics of AI <br />
+        conference 2070
+      </h1>
+      <p class="hero__p">
+        The AI conference brought together leading experts in the field to share
+        their latest research and insights on the current state and future of
+        artificial intelligence. Attendees had the opportunity to engage in
+        lively discussions, attend informative workshops, and network with
+        like-minded professionals from around the world.
+      </p>
+      <div class="hero__date">
+        <h2 class="hero__h2-2">2070.12.09(FRI) ~ 10(SAT)</h2>
+        <span class="hero__span"
+          >@ Canadian International College, Toronto, Canada.</span
+        >
+      </div>
+    </section>
+
+    <main class="main">
+      <h2 class="main__h2">Main Program</h2>
+      <svg
+        class="main__svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="31"
+        height="3"
+        viewBox="0 0 31 3"
+        fill="none"
+      >
+        <line
+          x1="0.5"
+          y1="1.5"
+          x2="30.5"
+          y2="1.5"
+          stroke="#A04038"
+          stroke-width="2"
+        />
+      </svg>
+      <div class="cards-container">
+        <article class="cards">
+          <img
+            class="cards__childs"
+            src="./img/program_icon.png"
+            alt="speaker"
+          />
+          <h3 class="main__h3 cards__childs">Lecture</h3>
+          <p class="cards__childs">
+            Listen to the speakers from various countries about the messages of
+            sharing and opening.
+          </p>
+        </article>
+        <article class="cards">
+          <img
+            class="cards__childs"
+            src="./img/program_icon_2.png"
+            alt="speaker"
+          />
+          <h3 class="main__h3 cards__childs">CC Exhibition</h3>
+          <p class="cards__childs">
+            Appreciate various creations applying CC license of artists,
+            organized from Art Center Nabi
+          </p>
+        </article>
+        <article class="cards">
+          <img
+            class="cards__childs"
+            src="./img/program_icon_3.png"
+            alt="speaker"
+          />
+          <h3 class="main__h3 cards__childs">Forum</h3>
+          <p class="cards__childs">
+            Have the time to share your thoughts and opinions with experts for
+            each topic.
+          </p>
+        </article>
+        <article class="cards">
+          <img
+            class="cards__childs"
+            src="./img/program_icon_4.png"
+            alt="speaker"
+          />
+          <h3 class="main__h3 cards__childs">Workshop</h3>
+          <p class="cards__childs">
+            Try creating your own work using open source license rather than
+            just watching at it.
+          </p>
+        </article>
+        <article class="cards">
+          <img
+            class="cards__childs"
+            src="./img/program_icon_5.png"
+            alt="speaker"
+          />
+          <h3 class="main__h3 cards__childs">CC Ignite</h3>
+          <p class="cards__childs">
+            get opportunities to network with CC affiliates around the world,
+            also after the summit.
+          </p>
+        </article>
+      </div>
+      <button class="main__button">Join CC Global Summit 2015</button>
+
+      <p class="desktop-p">SEE THE WHOLE PROGRAM</p>
+    </main>
+    <section class="footer"></section>
+    <section class="footer2"></section>
+    <section class="desktop-main__partners">
+      <h2>Partner</h2>
+      <svg
+        class="desktop-main__section-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        width="31"
+        height="3"
+        viewBox="0 0 31 3"
+        fill="none"
+      >
+        <line
+          x1="0.5"
+          y1="1.5"
+          x2="30.5"
+          y2="1.5"
+          stroke="#A04038"
+          stroke-width="2"
+        ></line>
+      </svg>
+      <div class="main__partners-logos">
+        <img src="./img/partners_airbnb 1.png" alt="airbnb logo" />
+        <img
+          src="./img/partners_daumkakaologo 1.png"
+          alt="daumkakaologo logo"
+        />
+        <img src="./img/partners_googlekorea.png" alt="google logo" />
+        <img src="./img/partners_mozilla.png" alt="mozilla logo" />
+        <img src="./img/partners_naver.png" alt="naver logo" />
+      </div>
+    </section>
+    <footer class="about_footer">
+      <img
+        class="about_footer-img"
+        src="./img/about_footer.png"
+        alt="Compnay name"
+      />
+      <p>
+        2015 Creative Commons Korea. Some Rights Reserved. <br /><br />
+        달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시
+        2.0 대한민국 라이선스에 따라 이용할 수 있습니다. 자세한 이용기능 내용과
+        허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.
+      </p>
+    </footer>
+  </body>
+</html>
