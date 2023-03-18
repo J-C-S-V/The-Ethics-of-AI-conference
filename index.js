@@ -64,6 +64,9 @@ window.addEventListener('load', () => {
         Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
         School
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+<line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+</svg>
       <p class="speakers__p-2">
         Benkler studies commons-based peer production, and published his
         seminal book, The Wealth of Networks in 2006
@@ -78,6 +81,9 @@ window.addEventListener('load', () => {
         Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
         School
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         Benkler studies commons-based peer production, and published his
         seminal book, The Wealth of Networks in 2006
@@ -122,6 +128,9 @@ window.addEventListener('load', () => {
         Berkman Professor of Entrepreneurial Legal Studies at Harvard Law
         School
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         Benkler studies commons-based peer production, and published his
         seminal book, The Wealth of Networks in 2006
@@ -133,6 +142,9 @@ window.addEventListener('load', () => {
     <aside>
       <h3 class="speakers__h3">Kilnam Chon</h3>
       <p class="speakers__p-1"></p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         Kilnam Chon helped bring the internet to Asia and is an outspoken
         advocate for the open web and digital com-mons. In 2012. he was
@@ -148,6 +160,9 @@ window.addEventListener('load', () => {
       <p class="speakers__p-1">
         Director of Art Centre Nabi and a board member of CC Korea
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         As the main venue for new media art production in Korea, Nabi
         promotes cross-disciplinary collaboration and understanding among
@@ -161,6 +176,9 @@ window.addEventListener('load', () => {
     <aside>
       <h3 class="speakers__h3">Julia Leda</h3>
       <p class="speakers__p-1">President of Young Pirates of Europe</p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         European ingetration, political democracy and participation of
         youth through online as her major condern, Reda's report outlining
@@ -176,6 +194,9 @@ window.addEventListener('load', () => {
       <p class="speakers__p-1">
         Executive Director of the Wikimedia Foundation
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         Lila Tretikov is the Executive of the Wikimedia Foundation, the
         nonprofit organization that operates Wikipedia.
@@ -189,6 +210,9 @@ window.addEventListener('load', () => {
       <p class="speakers__p-1">
         CEO of Creativve Commons, ex COO of the Mozilla Foundation
       </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
         Ryan had been leading open-source projects at the Mozilla
         Foundation such as the open-source move-ment

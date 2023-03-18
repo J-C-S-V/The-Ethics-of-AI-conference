@@ -241,6 +241,7 @@ body {
 
   .main {
     height: 110%;
+    padding: 5%;
   }
 
   .main__button {
