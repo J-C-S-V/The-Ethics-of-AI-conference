@@ -8,6 +8,8 @@
 
 # [Capstone project Module 1]
 
+This is a webpage for a conference about the ethics of AI in our society. This was build using JavaScript, HTML5, CSS3, mobile-first approach, SPA (Single Page Application), and DOM manipulation.
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
