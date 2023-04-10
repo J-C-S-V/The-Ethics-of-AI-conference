@@ -71,7 +71,7 @@ This is a webpage for a conference about the ethics of AI in our society. This w
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI/index.html)
+- [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI-conference/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
