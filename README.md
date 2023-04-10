@@ -1,12 +1,12 @@
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/main/img/logo.png" alt="logo" width="540"  height="auto" />
+  <img src="https://github.com/J-C-S-V/The-Ethics-of-AI/blob/main/img/logo.png" alt="logo" width="450"  height="auto" />
 
   <br/>
 
 </div>
 
-# [Capstone project Module 1]
+# [The Ethics of AI conference]
 
 This is a webpage for a conference about the ethics of AI in our society. This was build using JavaScript, HTML5, CSS3, mobile-first approach, SPA (Single Page Application), and DOM manipulation.
 
@@ -17,7 +17,6 @@ This is a webpage for a conference about the ethics of AI in our society. This w
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [🤓 Walkthrough](#walk-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -34,9 +33,9 @@ This is a webpage for a conference about the ethics of AI in our society. This w
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone project Module 1] <a name="about-project"></a>
+# 📖 [The Ethics of AI conference] <a name="about-project"></a>
 
-**[Capstone project Module 1]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
+**[The Ethics of AI conference]** is my first project with Microverse 😀. Here we'll see a very basic web page using the standards of the industry 💻
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -63,8 +62,8 @@ This is a webpage for a conference about the ethics of AI in our society. This w
 ### Key Features <a name="key-features"></a>
 
 - **[Easy navigation]**
-- **[Personalized product]**
-- **[Secure payment processing]**
+- **[Mobile first]**
+- **[DOM manipulation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,12 +72,6 @@ This is a webpage for a conference about the ethics of AI in our society. This w
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI/index.html)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤓 Walkthrough <a name="walk-demo"></a>
-
-- [Walkthrough](https://www.loom.com/share/b22b9de827c942c3bc5e0d65733cd519)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,8 +134,8 @@ GitHub pages
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Payment]**
-- [ ] **[Footer]**
-- [ ] **[Profile picture]**
+- [ ] **[Tests with Jest]**
+- [ ] **[Clean code principles]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -169,8 +162,6 @@ If you get inspired by this project you can give me a star 🙌
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I want to thank **Cindy Shin** the author of the original design
-
-I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
