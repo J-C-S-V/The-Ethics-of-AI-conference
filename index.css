@@ -29,7 +29,8 @@ body {
 
 .header__img {
   width: 38%;
-  margin: auto 29%;
+  margin: auto 30%;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 .hero {
