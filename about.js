@@ -23,7 +23,7 @@ hamburguerMenuIndex.addEventListener('click', () => {
     <li><a href="#">Join</a></li>
     <li><a href="#">Sponsor</a></li>
     <li><a href="#">News</a></li>
-    <li class="li-special"><a href="#">CC Campaign</a></li>
+    <li class="navbar__li-special"><a href="#">CC Campaign</a></li>
   </ul>
 
 `;

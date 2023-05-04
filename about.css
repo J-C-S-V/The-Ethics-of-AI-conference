@@ -229,7 +229,13 @@ body {
   }
 
   .header-d__ul li {
-    padding: 1rem;
+    padding: 0.4rem 2rem;
+  }
+
+  .navbar__a {
+    color: #868686;
+    padding: 0 1.8rem;
+    text-decoration: none;
   }
 
   .main__section-img {
@@ -255,9 +261,10 @@ body {
   .navbar {
     display: flex;
     justify-content: space-around;
-    padding: 1rem 0;
+    padding: 0.4rem 0;
     font-size: 1rem;
-    background-color: #fff;
+    background-color: var(--main-white);
+    box-shadow: 0 7px 11px 1px rgba(0, 0, 0, 0.5);
   }
 
   .navbar__ul {
@@ -267,23 +274,19 @@ body {
     list-style: none;
   }
 
-  .navbar__ul li a {
-    text-decoration: none;
-    color: #868686;
-    padding: 0.8rem;
-  }
-
   .navbar__ul li a:hover {
     color: #f53d00;
   }
 
   .navbar-logo {
-    width: 15%;
+    width: 10%;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
   }
 
-  .li-special {
+  .navbar__li-special {
     border: 6px solid #f53d00;
     padding: 0.5rem;
     color: #f53d00;
+    text-decoration: none;
   }
 }

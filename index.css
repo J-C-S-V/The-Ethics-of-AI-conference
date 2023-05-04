@@ -356,7 +356,7 @@ body {
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
   }
 
-  .li-special {
+  .navbar__li-special {
     border: 6px solid #f53d00;
     padding: 0.5rem;
     color: #f53d00;
