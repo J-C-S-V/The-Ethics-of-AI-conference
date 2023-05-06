@@ -18,12 +18,9 @@ hamburguerMenuIndex.addEventListener('click', () => {
     />
   </svg>
   <ul class="DOM-menu__ul">
-    <li><a href="about.html">About</a></li>
-    <li><a href="#">Program</a></li>
-    <li><a href="#">Join</a></li>
-    <li><a href="#">Sponsor</a></li>
-    <li><a href="#">News</a></li>
-    <li class="li-special"><a href="#">CC Campaign</a></li>
+    <li><a class="DOM-menu__a" href="about.html">About</a></li>
+    <li><a class="DOM-menu__a" href="news.html">News</a></li>
+    <li class="navbar__li-special"><a class="DOM-menu__a" href="#">CC Campaign</a></li>
   </ul>
 
 `;
@@ -79,7 +76,7 @@ const speakerList = [
   },
 ];
 
-const speakersSection2 = document.querySelector('.footer2');
+const speakersSection2 = document.querySelector('.footer-mobile');
 
 window.addEventListener('load', () => {
   speakersSection2.innerHTML = `
@@ -137,10 +134,10 @@ window.addEventListener('load', () => {
   `;
 });
 
-const speakersSection = document.querySelector('.footer');
+const speakersSectionDesktop = document.querySelector('.footer-desktop');
 
 window.addEventListener('load', () => {
-  speakersSection.innerHTML = `
+  speakersSectionDesktop.innerHTML = `
 
 <h2>Featured Speakers</h2>
 <svg
