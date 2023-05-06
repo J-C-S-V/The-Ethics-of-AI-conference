@@ -18,12 +18,9 @@ hamburguerMenuIndex.addEventListener('click', () => {
     />
   </svg>
   <ul class="DOM-menu__ul">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#">Program</a></li>
-    <li><a href="#">Join</a></li>
-    <li><a href="#">Sponsor</a></li>
-    <li><a href="#">News</a></li>
-    <li class="navbar__li-special"><a href="#">CC Campaign</a></li>
+    <li><a class="DOM-menu__a" href="index.html">Home</a></li>
+    <li><a class="DOM-menu__a" href="news.html">News</a></li>
+    <li class="navbar__li-special"><a class="DOM-menu__a" href="#">CC Campaign</a></li>
   </ul>
 
 `;
