@@ -46,7 +46,7 @@ body {
 .header__img {
   width: 33%;
   margin: auto 30%;
-  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 .hero {
@@ -350,7 +350,7 @@ body {
 
   .navbar-logo {
     width: 10%;
-    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.5);
   }
 
   .navbar__li-special {
@@ -383,6 +383,6 @@ body {
 
   .about_footer-img {
     width: 10%;
-    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.5);
   }
 }

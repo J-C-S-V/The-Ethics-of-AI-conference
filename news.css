@@ -46,7 +46,7 @@ body {
 .header__img {
   width: 33%;
   margin: auto 30%;
-  box-shadow: 0px 1px 10px 1px var(--secondary-opacity-transparent);
+  box-shadow: 0 1px 10px 1px var(--secondary-opacity-transparent);
 }
 
 .hero {
@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   margin: 10% 5%;
   padding: 1rem;
-  box-shadow: 0px 1px 10px 1px var(--secondary-opacity-transparent);
+  box-shadow: 0 1px 10px 1px var(--secondary-opacity-transparent);
 }
 
 .hero__h2 {
@@ -352,7 +352,7 @@ body {
 
   .navbar-logo {
     width: 10%;
-    box-shadow: 0px 1px 10px 1px var(--secondary-opacity-transparent);
+    box-shadow: 0 1px 10px 1px var(--secondary-opacity-transparent);
   }
 
   .navbar__li-special {
@@ -385,6 +385,6 @@ body {
 
   .about_footer-img {
     width: 10%;
-    box-shadow: 0px 1px 10px 1px var(--secondary-opacity-transparent);
+    box-shadow: 0 1px 10px 1px var(--secondary-opacity-transparent);
   }
 }
