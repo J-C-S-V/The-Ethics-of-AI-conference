@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Roboto+Mono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
 
 :root {
   --main-orange: #f32201;
@@ -65,6 +66,14 @@ body {
   margin-top: 0;
   color: var(--main-orange);
   font-size: 2.5rem;
+  color: var(--main-orange);
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Assistant';
+  text-transform: uppercase;
+  background-image: url('./img/hero_text.png');
+  color: transparent;
+  background-clip: text;
 }
 
 .hero__h2 {
@@ -161,6 +170,10 @@ body {
   padding: 3rem;
   text-align: center;
   color: var(--main-grey);
+}
+
+.about_footer-p {
+  opacity: 0.5;
 }
 
 .header-d {
