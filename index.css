@@ -79,7 +79,6 @@ body {
   background-image: url('./img/hero_text.png');
   color: transparent;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
 }
 
 .hero__p {
