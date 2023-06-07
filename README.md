@@ -13,6 +13,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Walkthrough](#live-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,6 +59,14 @@ The Ethics of AI conference is a webpage for a conference about the ethics of AI
 - [Live Demo Link](https://j-c-s-v.github.io/The-Ethics-of-AI-conference/index.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🎥 Walkthrough <a name="live-video"></a>
+
+- [Live video link](https://drive.google.com/file/d/1_K3oMSZD2lFMsKWcyQT-baiV0o6a4Fb7/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
