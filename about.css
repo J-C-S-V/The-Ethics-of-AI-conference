@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lobster&family=Roboto+Mono:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap');
 
 :root {
   --main-orange: #f32201;
@@ -49,8 +50,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% 5%;
   text-align: center;
+  background-image: url('./img/hero_background_2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
+}
+
+.hero-about > * {
+  padding: 1rem 0;
 }
 
 .hero-about__p {
@@ -59,12 +68,17 @@ body {
   font-size: 0.8rem;
   color: var(--main-grey);
   background-color: var(--main-white);
+  margin: 0 2rem;
 }
 
 .hero-about__h1 {
-  margin-top: 0;
-  color: var(--main-orange);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  text-transform: uppercase;
+  background-image: url('./img/hero_text.png');
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero__h2 {
@@ -163,6 +177,10 @@ body {
   color: var(--main-grey);
 }
 
+.about_footer-p {
+  opacity: 0.5;
+}
+
 .header-d {
   display: none;
 }
@@ -243,6 +261,10 @@ body {
 
   .header-d__ul li {
     padding: 0.4rem 2rem;
+  }
+
+  .hero-about__p {
+    margin: 0 20rem;
   }
 
   .navbar__a {

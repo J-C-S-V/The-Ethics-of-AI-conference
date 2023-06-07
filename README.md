@@ -13,6 +13,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [🎥 Walkthrough](#live-video)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -33,16 +34,16 @@ The Ethics of AI conference is a webpage for a conference about the ethics of AI
 
   <summary>Languages and technologies</summary><br>
   <ul>
-    <li><a href="#">JavaScript ES6</a></li>
+    <li>JavaScript ES6</li>
   </ul>
     <ul>
-    <li><a href="#">CSS3</a></li>
+    <li>CSS3</li>
   </ul>
     <ul>
-    <li><a href="#">HTML5</a></li>
+    <li>HTML5</li>
   </ul>
     <ul>
-    <li><a href="#">Git</a></li>
+    <li>Git</li>
   </ul>
 
 ### Key Features <a name="key-features"></a>
@@ -59,6 +60,14 @@ The Ethics of AI conference is a webpage for a conference about the ethics of AI
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🎥 Walkthrough <a name="live-video"></a>
+
+- [Live video link](https://drive.google.com/file/d/1_K3oMSZD2lFMsKWcyQT-baiV0o6a4Fb7/view?usp=sharing)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -71,14 +80,14 @@ In order to run this project you need a GitHub account and a text editor.
 
 Clone this repository to your desired folder using the command:
 
-`git clone` https://github.com/J-C-S-V/hello_microverse_project.git
+`git clone` https://github.com/J-C-S-V/The-Ethics-of-AI-conference
 
 ## 👷‍♂️ Author <a name="authors"></a>
 
 👷‍♂️ **Juan Sanchez**
 
 - GitHub: [Juan Sanchez](https://github.com/J-C-S-V)
-- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/juan-carlos-sanchez-vargas-a308b014b/)
+- LinkedIn: [Juan Sanchez](https://www.linkedin.com/in/sanchez-juan-carlos/)
 - Twitter: [Juan Sanchez](https://twitter.com/juansan0)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
