@@ -72,17 +72,16 @@ body {
 }
 
 .hero-about__h1 {
-  margin-top: 0;
-  color: var(--main-orange);
   font-size: 2.5rem;
   color: var(--main-orange);
   font-size: 3rem;
   margin: 0;
-  font-family: 'Assistant';
+  font-family: 'Assistant', sans-serif;
   text-transform: uppercase;
   background-image: url('./img/hero_text.png');
   color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
 }
 
 .hero__h2 {
