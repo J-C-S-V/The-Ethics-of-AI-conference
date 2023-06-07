@@ -106,8 +106,8 @@ window.addEventListener('load', () => {
       ${speakerList[0].role}
       </p>
       <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
-<line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
-</svg>
+        <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
       <p class="speakers__p-2">
       ${speakerList[0].description}
       </p>
@@ -128,10 +128,49 @@ window.addEventListener('load', () => {
       </p>
     </aside>
   </article>
+  <article class="speakers speakers-more">
+    <img src="${speakerList[2].photo}" />
+    <aside>
+      <h3 class="speakers__h3">${speakerList[2].name}</h3>
+      <p class="speakers__p-1">
+      ${speakerList[2].role}
+      </p>
+      <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+      <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+      </svg>
+      <p class="speakers__p-2">
+      ${speakerList[2].description}
+      </p>
+    </aside>
+  </article>
+  <article class="speakers speakers-more">
+  <img src="${speakerList[3].photo}" />
+  <aside>
+    <h3 class="speakers__h3">${speakerList[3].name}</h3>
+    <p class="speakers__p-1">
+    ${speakerList[3].role}
+    </p>
+    <svg class="short-horizontal-line" xmlns="http://www.w3.org/2000/svg" width="26" height="2" viewBox="0 0 26 2" fill="none">
+    <line x1="0.5" y1="1" x2="25.5" y2="1" stroke="#D9D9D9" stroke-width="2"/>
+    </svg>
+    <p class="speakers__p-2">
+    ${speakerList[3].description}
+    </p>
+  </aside>
+</article>
   <button class="speakers__button">
-  <img src="./img/more-btn.png" alt="More options" />
+    <img src="./img/more-btn.png" alt="More options" />
   </button>
   `;
+  const speakersButton = document.querySelector('.speakers__button');
+  const moreSpeakers = document.querySelectorAll('.speakers-more');
+
+  moreSpeakers.forEach((speaker) => {
+    speakersButton.addEventListener('click', () => {
+      speaker.classList.remove('speakers-more');
+      speakersButton.classList.add('button-hidden');
+    });
+  });
 });
 
 const speakersSectionDesktop = document.querySelector('.footer-desktop');
